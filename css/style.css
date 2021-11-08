@@ -11,6 +11,9 @@
   height: 500vh;
   color: var(--Light);
 }
+ body {
+    overflow-x: hidden;
+  }
 
 html {
   scroll-behavior: smooth;
@@ -63,6 +66,9 @@ html {
 
 /* Small */
 @media (min-width: 768px) {
+   body {
+    overflow-x: hidden;
+  }
   .container {
     width: 750px;
   }
@@ -70,6 +76,9 @@ html {
 
 /* Medium */
 @media (min-width: 992px) {
+   body {
+    overflow-x: hidden;
+  }
   .container {
     width: 970px;
   }
@@ -128,6 +137,9 @@ ul li a:hover {
 }
 
 @media (max-width: 1040px) {
+   body {
+    overflow-x: hidden;
+  }
   nav ul {
     width: 50%;
   }
@@ -321,6 +333,9 @@ ul li a:hover {
   }
 }
 @media (max-width: 852px) {
+   body {
+    overflow-x: hidden;
+  }
   .showcase-hero {
     width: 650px;
   }
@@ -335,6 +350,9 @@ ul li a:hover {
   }
 }
 @media (max-width: 652px) {
+   body {
+    overflow-x: hidden;
+  }
   .showcase-hero {
     width: 320px;
   }
@@ -456,6 +474,9 @@ ul li a:hover {
   }
 }
 @media (max-width: 790px) {
+   body {
+    overflow-x: hidden;
+  }
   .about-img {
     display: none;
   }
@@ -480,6 +501,9 @@ ul li a:hover {
   }
 }
 @media (max-width: 524px) {
+   body {
+    overflow-x: hidden;
+  }
   .imprem {
     transform: translateY(100px);
     -webkit-transform: translateY(100px);
@@ -528,6 +552,9 @@ ul li a:hover {
   }
 }
 @media (max-width: 460px) {
+   body {
+    overflow-x: hidden;
+  }
   .heading-map {
     transform: translate(100px, 240px);
     -webkit-transform: translate(100px, 240px);
@@ -602,6 +629,9 @@ ul li a:hover {
   -o-transform: translateX(8%);
 }
 @media (max-width: 912px) {
+   body {
+    overflow-x: hidden;
+  }
   .prd-collection {
     display: flex;
     flex-direction: column;
@@ -703,6 +733,9 @@ ul li a:hover {
   color: var(--pinkLight);
 }
 @media (max-width: 912px) {
+   body {
+    overflow-x: hidden;
+  }
   .devis {
     transform: translateY(200px);
     -webkit-transform: translateY(200px);
