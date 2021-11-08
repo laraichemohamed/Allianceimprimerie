@@ -10,10 +10,8 @@
   background: url("../images/background.png") no-repeat center center/cover;
   height: 500vh;
   color: var(--Light);
+  
 }
- body {
-    overflow-x: hidden;
-  }
 
 html {
   scroll-behavior: smooth;
@@ -66,9 +64,7 @@ html {
 
 /* Small */
 @media (min-width: 768px) {
-   body {
-    overflow-x: hidden;
-  }
+
   .container {
     width: 750px;
   }
@@ -76,9 +72,7 @@ html {
 
 /* Medium */
 @media (min-width: 992px) {
-   body {
-    overflow-x: hidden;
-  }
+
   .container {
     width: 970px;
   }
@@ -137,16 +131,14 @@ ul li a:hover {
 }
 
 @media (max-width: 1040px) {
-   body {
-    overflow-x: hidden;
-  }
+
   nav ul {
     width: 50%;
   }
 }
 
 @media (max-width: 580px) {
-  body {
+  body{
     overflow-x: hidden;
   }
   nav ul {
@@ -161,7 +153,6 @@ ul li a:hover {
     right: 0px;
     top: 20vh;
     z-index: 1;
-
     transform: translateX(100%);
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -333,9 +324,7 @@ ul li a:hover {
   }
 }
 @media (max-width: 852px) {
-   body {
-    overflow-x: hidden;
-  }
+
   .showcase-hero {
     width: 650px;
   }
@@ -350,9 +339,7 @@ ul li a:hover {
   }
 }
 @media (max-width: 652px) {
-   body {
-    overflow-x: hidden;
-  }
+
   .showcase-hero {
     width: 320px;
   }
@@ -474,9 +461,7 @@ ul li a:hover {
   }
 }
 @media (max-width: 790px) {
-   body {
-    overflow-x: hidden;
-  }
+
   .about-img {
     display: none;
   }
@@ -501,9 +486,7 @@ ul li a:hover {
   }
 }
 @media (max-width: 524px) {
-   body {
-    overflow-x: hidden;
-  }
+
   .imprem {
     transform: translateY(100px);
     -webkit-transform: translateY(100px);
@@ -552,9 +535,7 @@ ul li a:hover {
   }
 }
 @media (max-width: 460px) {
-   body {
-    overflow-x: hidden;
-  }
+
   .heading-map {
     transform: translate(100px, 240px);
     -webkit-transform: translate(100px, 240px);
@@ -629,9 +610,7 @@ ul li a:hover {
   -o-transform: translateX(8%);
 }
 @media (max-width: 912px) {
-   body {
-    overflow-x: hidden;
-  }
+
   .prd-collection {
     display: flex;
     flex-direction: column;
@@ -733,9 +712,7 @@ ul li a:hover {
   color: var(--pinkLight);
 }
 @media (max-width: 912px) {
-   body {
-    overflow-x: hidden;
-  }
+
   .devis {
     transform: translateY(200px);
     -webkit-transform: translateY(200px);
@@ -744,34 +721,8 @@ ul li a:hover {
     -o-transform: translateY(200px);
   }
 }
-.scrll-btn {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-.scrll-btn div {
-  display: none;
-  width: 100px;
-  height: 100px;
-  background-color: var(--pink);
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  transform: translate(-80px, -100px);
-  -webkit-transform: translate(-80px, -100px);
-  -moz-transform: translate(-80px, -100px);
-  -ms-transform: translate(-80px, -100px);
-  -o-transform: translate(-80px, -100px);
-}
-.scrll-btn div i {
-  font-size: 80px;
-  cursor: pointer;
-  transform: translate(15px, 5px);
-  color: var(--Dark);
-  -webkit-transform: translate(15px, 5px);
-  -moz-transform: translate(15px, 5px);
-  -ms-transform: translate(15px, 5px);
-  -o-transform: translate(15px, 5px);
+@media (max-width:375px) {
+  body{
+    overflow-x: hidden;
+  }
 }
