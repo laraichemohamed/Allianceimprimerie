@@ -10,7 +10,6 @@
   background: url("../images/background.png") no-repeat center center/cover;
   height: 500vh;
   color: var(--Light);
-  
 }
 
 html {
@@ -64,7 +63,6 @@ html {
 
 /* Small */
 @media (min-width: 768px) {
-
   .container {
     width: 750px;
   }
@@ -72,7 +70,6 @@ html {
 
 /* Medium */
 @media (min-width: 992px) {
-
   .container {
     width: 970px;
   }
@@ -131,14 +128,13 @@ ul li a:hover {
 }
 
 @media (max-width: 1040px) {
-
   nav ul {
     width: 50%;
   }
 }
 
 @media (max-width: 580px) {
-  body{
+  body {
     overflow-x: hidden;
   }
   nav ul {
@@ -151,8 +147,8 @@ ul li a:hover {
     align-items: center;
     position: absolute;
     right: 0px;
-    top: 20vh;
-    z-index: 1;
+    top: 15vh;
+
     transform: translateX(100%);
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -166,6 +162,8 @@ ul li a:hover {
     -moz-transform: translateX(100%);
     -ms-transform: translateX(100%);
     -o-transform: translateX(100%);
+    z-index: 1;
+    display: none;
   }
   ul li a:hover {
     border-bottom: 1px solid var(--pink);
@@ -177,6 +175,7 @@ ul li a:hover {
 }
 
 .activeNav {
+  display: flex;
   transform: translateX(0%);
   -webkit-transform: translateX(0%);
   -moz-transform: translateX(0%);
@@ -324,7 +323,6 @@ ul li a:hover {
   }
 }
 @media (max-width: 852px) {
-
   .showcase-hero {
     width: 650px;
   }
@@ -339,7 +337,6 @@ ul li a:hover {
   }
 }
 @media (max-width: 652px) {
-
   .showcase-hero {
     width: 320px;
   }
@@ -461,7 +458,6 @@ ul li a:hover {
   }
 }
 @media (max-width: 790px) {
-
   .about-img {
     display: none;
   }
@@ -486,7 +482,6 @@ ul li a:hover {
   }
 }
 @media (max-width: 524px) {
-
   .imprem {
     transform: translateY(100px);
     -webkit-transform: translateY(100px);
@@ -535,7 +530,6 @@ ul li a:hover {
   }
 }
 @media (max-width: 460px) {
-
   .heading-map {
     transform: translate(100px, 240px);
     -webkit-transform: translate(100px, 240px);
@@ -610,7 +604,6 @@ ul li a:hover {
   -o-transform: translateX(8%);
 }
 @media (max-width: 912px) {
-
   .prd-collection {
     display: flex;
     flex-direction: column;
@@ -712,17 +705,11 @@ ul li a:hover {
   color: var(--pinkLight);
 }
 @media (max-width: 912px) {
-
   .devis {
     transform: translateY(200px);
     -webkit-transform: translateY(200px);
     -moz-transform: translateY(200px);
     -ms-transform: translateY(200px);
     -o-transform: translateY(200px);
-  }
-}
-@media (max-width:375px) {
-  body{
-    overflow-x: hidden;
   }
 }
