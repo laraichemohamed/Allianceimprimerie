@@ -394,8 +394,11 @@ ul li a:hover {
 }
 
 .impem-txt p {
+  font-family: "Libre Baskerville", serif;
+  text-align: left;
   line-height: 1.8rem;
   margin-left: 30px;
+  width: auto;
 }
 
 .visiter-holde {
